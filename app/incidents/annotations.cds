@@ -145,6 +145,7 @@ annotate service.Customers with {
 annotate service.Customers with @(
     UI.SelectionFields : [
         email,
+        createdBy
     ]
 );
 
