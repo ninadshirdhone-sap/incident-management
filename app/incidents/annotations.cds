@@ -142,3 +142,9 @@ annotate service.Customers with {
     ID @Common.Text : phone
 };
 
+annotate service.Customers with @(
+    UI.SelectionFields : [
+        email,
+    ]
+);
+
